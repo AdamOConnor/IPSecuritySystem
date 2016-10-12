@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<style type="text/css">@import "css/basic.css";
+			</style>
+		</head>
+		<body>
+			<div id="stream"><img cke:body="" id="stream" src="http://86.45.26.248:8080/?action=stream" style="-webkit-user-select: none" /></div>
+			<div id="images">
+				<?php
+				$dirname = "";
+				$images = glob($dirname."*.jpg");
+				foreach($images as $image) {
+				echo '<img src="'.$image.'" /><br />';
+				}
+				?>
+
+
+			</div>
+		</body>
+</html>

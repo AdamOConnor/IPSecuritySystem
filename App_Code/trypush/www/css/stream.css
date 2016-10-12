@@ -1,0 +1,19 @@
+body
+{
+
+	overflow-y: hidden; // hide vertical
+	overflow-x: hidden; // hide horizontal
+}
+
+
+
+      <iframe
+	   src="http://mgp2016.netau.net/admin/stream.html"
+	   width="100%" height="100%"
+	   sandbox>
+	    <p>
+	      <a href="http://mgp2016.netau.net/admin/stream.html">
+
+	      </a>
+	    </p>
+</iframe>
