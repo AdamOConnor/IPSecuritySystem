@@ -51,8 +51,8 @@ import org.opencv.imgproc.Imgproc;
  *
  *			Stream always accessible - http://c-cam.uchicago.edu/mjpg/video.mjpg");
  *			Locally accessible if opencv installed - C:\\OpenCv\\opencv\\sources\\samples\\gpu\\768x576.avi
- *			Local network Adams cam - http://192.168.192.27:8080/?action=stream?resolution=640x480&.mjpg
- *			Outside network Adams cam - http://80.111.38.87:8080/?action=stream?resolution=640x480&.mjpg
+ *			Local network Adams cam - http://:8080/?action=stream?resolution=640x480&.mjpg
+ *			Outside network Adams cam - http://:8080/?action=stream?resolution=640x480&.mjpg
  *			
  *
  *	Project Supervisor Dr Simon Mcloughlin
