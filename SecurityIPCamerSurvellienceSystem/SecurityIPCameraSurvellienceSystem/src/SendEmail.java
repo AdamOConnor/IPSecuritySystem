@@ -18,7 +18,7 @@ import javax.mail.internet.*;
  */
 
 public class SendEmail extends Thread {
-	private String sendMailToAddress ="adam-o-connor@hotmail.com";	
+	private String sendMailToAddress ="";	
 	private Properties props = new Properties(); 
 	private Session session;
 	private String filename;
